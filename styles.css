@@ -1,0 +1,300 @@
+body {
+  /* max-width: 100%; */
+  width: 1400px;
+  height: 100%;
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: aliceblue;
+}
+
+header {
+  text-align: center;
+  display: flex;
+  /* float: left; */
+  /* justify-content: space-between; */
+}
+
+li {
+  display: block;
+  float: left;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+a {
+  color: antiquewhite;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  height: 45px;
+  padding-top: 5px;
+}
+
+.phone {
+  padding: 5px;
+  margin-left: 350px;
+  background-color: rgb(224, 168, 0);
+}
+
+#phn {
+  height: 12px;
+}
+
+.car1 {
+  /* max-width: 100%;
+    max-height: 700px; */
+  width: 65%;
+  /* Ensure the image takes the full width of its container */
+  height: 850px;
+  /* Set a fixed height (adjust as needed) */
+  /* object-fit: contain; */
+  /* float: right; */
+  margin-left: 450px;
+}
+
+.head {
+  position: absolute;
+  top: 10px;
+}
+
+/* .container{
+    margin-top: 0px;
+} */
+.content {
+  overflow: auto;
+  /* Add this property to enable scrollbars if content overflows */
+  color: rgb(240, 237, 232);
+  /* float: right; */
+  position: absolute;
+  top: 250px;
+  left: 170px;
+}
+
+.content h1 {
+  font-size: 90px;
+}
+
+.six {
+  color: rgb(224, 168, 0);
+}
+
+button {
+  background-color: black;
+  color: rgb(232, 232, 232);
+  border: 0.5px solid rgb(169, 121, 121);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.tday {
+  margin-left: 100px;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+#tday {
+  margin-top: 30px;
+}
+
+.type {
+  display: flex;
+  padding-top: 11px;
+  margin-left: 200px;
+}
+
+.crtyp > img {
+  height: 10px;
+}
+
+.crtyp {
+  margin-left: 40px;
+}
+.alcr {
+  margin-left: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 200px;
+  height: 45px;
+  margin-top: 2px;
+  font-weight: bold;
+  align-items: center;
+}
+.cr2 {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 300px;
+}
+.cr2 > img {
+  height: 250px;
+  width: 370px;
+}
+.cr2 > p {
+  text-align: center;
+  margin-left: 35px;
+}
+.orange {
+  color: rgb(224, 168, 0);
+}
+.space {
+  margin-left: 70px;
+}
+.cartday {
+  display: flex;
+}
+.grey {
+  color: grey;
+}
+.tcen {
+  margin-left: 35px;
+}
+.int > img {
+  height: 420px;
+  width: 630px;
+  position: absolute;
+  top: 1890px;
+  left: 745px;
+  z-index: 1;
+}
+.follow {
+  display: flex;
+  /* justify-content: center; */
+}
+.follow > img {
+  height: 400px;
+  width: 800px;
+  z-index: 2;
+}
+/* .followus{
+align-items: center;
+} */
+.service {
+  margin-top: 90px;
+}
+.followus > h1 {
+  position: absolute;
+  top: 1630px;
+  left: 890px;
+  font-size: 40px;
+  z-index: 4;
+}
+.empty {
+  height: 200px;
+  width: 110px;
+  background-color: rgb(218, 150, 14);
+  position: absolute;
+  top: 1625px;
+  left: 805px;
+  z-index: 3;
+}
+.followus > p {
+  color: rgb(224, 168, 0);
+  width: 120px;
+  position: absolute;
+  top: 1760px;
+  left: 950px;
+  font-size: 20px;
+}
+.know {
+  margin-top: 110px;
+  width: 600px;
+  /* height: 500px; */
+}
+.para {
+  padding-left: 100px;
+}
+.para > p {
+  color: rgb(176, 176, 176);
+}
+.milege {
+  height: 30px;
+}
+.milege > p {
+  width: 20px;
+}
+.fulls {
+  display: flex;
+}
+.fulls > p {
+  margin: 0;
+  margin-left: 10px;
+}
+.LCR {
+  display: flex;
+  justify-content: space-around;
+}
+/* .fulls > img{
+  background-color: rgb(73, 71, 71);
+} */
+.mil {
+  justify-content: center;
+  height: 17px;
+  margin-top: 8px;
+}
+.foot{
+  margin-top: 200px;
+  padding-left: 100px;
+  display: flex;
+  padding-top: 50px;
+}
+.social{
+  height: 35px;
+}
+.footp{
+  padding-left: 250px;
+}
+.inam{
+  height: 40px;
+  width: 250px;
+  background-color: black;
+  border: 1px solid grey;
+  margin: 4px;
+  padding-left: 8px;
+}
+.input{
+  padding-left: 250px;
+  display: flex;
+}
+.logo{
+  height: 45px;
+  height: 57px;
+  padding-top: 45px;
+}
+.message{
+  width: 250px;
+  height: 97px;
+  background-color: black;
+  border: 1px solid grey;
+  padding-left: 8px;
+  color: grey;
+}
+.block{
+  display: grid;
+}
+.fot{
+  margin: 4px;
+  margin-top: 4px;
+}
+button{
+  margin-top: 12px;
+  height: 44px;
+  width: 250px;
+  background-color: rgb(224, 168, 0);
+}
+.mess{
+  margin-top: 8px;
+}
+.privacy{
+  margin-left: 100px;
+  color: grey;
+  display: flex;
+}
+.copy{
+  margin-left: 880px;
+}
